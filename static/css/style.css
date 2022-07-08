@@ -29,6 +29,7 @@ header {
     font-weight: 600;
     font-size: 30px;
     line-height: 36px;
+    width: 2%;
 }
 
 .navbar .workshop span {
@@ -62,13 +63,14 @@ header {
 /* Hero Section */
 .hero .banner img {
     margin-left: 8%;
-    width: 900px;
+    width: 80%;
     margin-top: 5%;
 }
 
 .buy-tickets-btn {
     margin-top: 2%;
 }
+
 .hero .buy-tickets-btn a {
     margin-left: 35%;
     text-decoration: none;
@@ -84,4 +86,152 @@ header {
     font-weight: 500;
     font-size: 20px;
     line-height: 24px;
+}
+
+
+
+/* About Section */
+.about-section {
+    margin-top: 10%;
+    margin-left: 7%;
+}
+
+.about-section h2 {
+    color: #C8F902;
+
+}
+
+.about-section p {
+    color: #ffffff;
+}
+
+
+
+/* Schedule */
+
+.schedule {
+    margin-top: 10%;
+    margin-left: 7%;
+
+}
+
+.schedule h2 {
+    color: #C8F902;
+
+}
+
+.schedule .timing {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+}
+
+.schedule .timing .content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.schedule .timing .content .time p {
+    color: #8E92A8;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.schedule .timing .content .prgm p.one {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #DEDEDE;
+}
+
+.schedule .timing .content .prgm p.two {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #DEDEDE;
+}
+
+
+/* Topics */
+
+.topics {
+    margin-top: 10%;
+    margin-left: 7%;
+
+}
+
+.topics h2 {
+    color: #C8F902;
+
+}
+
+.topics .main-topic {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+}
+
+.topics .main-topic .top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.topics .main-topic p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+
+}
+
+.topics .main-topic h3 {
+    font-family: 'Inter';
+    font-style: normal;
+    color: #FFFFFF;
+
+}
+
+/* Footer */
+
+.foot {
+    margin-top: 10%;
+    margin-left: 7%;
+}
+
+.foot h2 {
+    color: #C8F902;
+
+}
+
+.foot .contact-main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 5%;
+}
+
+.foot .contact-main .contact-a {
+    display: flex;
+    flex-direction: column;
+}
+
+.foot .contact-main .contact-a p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #FFFFFF;
+
 }
