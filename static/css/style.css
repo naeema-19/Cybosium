@@ -1,0 +1,87 @@
+/* Body */
+body {
+    background-color: black;
+}
+
+/* Header */
+header {
+    margin-top: 3%;
+
+}
+
+
+/* Navbar */
+
+.navbar nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 8%;
+    margin-right: 12%;
+}
+
+.navbar .workshop a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 36px;
+}
+
+.navbar .workshop span {
+    color: #C8F902;
+}
+
+
+.navbar .sections {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.navbar .sections a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 7px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    line-height: 36px;
+}
+
+.navbar .sections a.ticket {
+    background-color: #C8F902;
+    color: #000000;
+    margin-left: 3px;
+}
+
+/* Hero Section */
+.hero .banner img {
+    margin-left: 8%;
+    width: 900px;
+    margin-top: 5%;
+}
+
+.buy-tickets-btn {
+    margin-top: 2%;
+}
+.hero .buy-tickets-btn a {
+    margin-left: 35%;
+    text-decoration: none;
+    background-color: #ffffff;
+    padding: 10px;
+    color: #000000;
+    width: 133px;
+    height: 24px;
+    left: 299px;
+    top: 418px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+}
