@@ -21,7 +21,7 @@ header {
 }
 
 .navbar .workshop a {
-    color: #ffffff;
+    color: #C8F902;
     text-decoration: none;
     font-size: 20px;
     font-family: 'Inter';
@@ -32,9 +32,9 @@ header {
     width: 2%;
 }
 
-.navbar .workshop span {
+/* .navbar .workshop span {
     color: #C8F902;
-}
+} */
 
 
 .navbar .sections {
@@ -129,7 +129,7 @@ header {
 .schedule .timing .content {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: flex-start;
 }
 
 .schedule .timing .content .time p {
@@ -159,6 +159,10 @@ header {
     color: #DEDEDE;
 }
 
+.schedule .timing .content .prgm{
+    margin-left: 8%;
+}
+
 
 /* Topics */
 
@@ -179,13 +183,15 @@ header {
     margin-left: 10%;
 }
 
-.topics .main-topic .top {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+.topics .main-topic .top{
+    border-style: solid;
+    border-width: thin;
+    border-color: #C8F902;
+    margin: 2%;
+    margin-right: 30%;
 }
 
-.topics .main-topic p {
+.topics .main-topic .top p {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
@@ -217,13 +223,14 @@ header {
 .foot .contact-main {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: flex-start;
     margin: 5%;
 }
 
 .foot .contact-main .contact-a {
     display: flex;
     flex-direction: column;
+    margin-left: 5%;
 }
 
 .foot .contact-main .contact-a p {
@@ -233,5 +240,15 @@ header {
     font-size: 12px;
     line-height: 15px;
     color: #FFFFFF;
+}
 
+
+
+/* Copyright */
+.copyright{
+    margin-top: 5%;
+}
+.copyright .cont p {
+    color: #e6e7ed;
+    text-align: center;
 }
