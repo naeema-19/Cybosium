@@ -516,8 +516,9 @@ h6 {
 
 @media (max-width: 768px) {
   #hero h1 {
-    font-size: 26px;
+    font-size: 3rem;
     line-height: 36px;
+    padding-bottom: 10px;
   }
 
   #hero h2 {
